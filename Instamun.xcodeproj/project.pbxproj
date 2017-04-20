@@ -509,6 +509,7 @@
 				F97B53E21E363D6600EA0055 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F97B53E31E363D6600EA0055 /* Build configuration list for PBXNativeTarget "InstamunTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +518,7 @@
 				F97B53E51E363D6600EA0055 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F97B53E61E363D6600EA0055 /* Build configuration list for PBXNativeTarget "InstamunUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +527,7 @@
 				F97B53E81E363D6600EA0055 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
