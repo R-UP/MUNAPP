@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F94804A11EAC8D5900F24CAB /* CountriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94804A01EAC8D5900F24CAB /* CountriesTableViewController.swift */; };
 		F97B53BA1E363D6600EA0055 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97B53B91E363D6600EA0055 /* AppDelegate.swift */; };
 		F97B53BC1E363D6600EA0055 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97B53BB1E363D6600EA0055 /* MasterViewController.swift */; };
 		F97B53BE1E363D6600EA0055 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97B53BD1E363D6600EA0055 /* DetailViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F94804A01EAC8D5900F24CAB /* CountriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesTableViewController.swift; sourceTree = "<group>"; };
 		F97B53B61E363D6500EA0055 /* Instamun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instamun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F97B53B91E363D6600EA0055 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F97B53BB1E363D6600EA0055 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				F97B53BB1E363D6600EA0055 /* MasterViewController.swift */,
 				F97B53BD1E363D6600EA0055 /* DetailViewController.swift */,
 				F97B53BF1E363D6600EA0055 /* Main.storyboard */,
+				F94804A01EAC8D5900F24CAB /* CountriesTableViewController.swift */,
 				F97B53C21E363D6600EA0055 /* Assets.xcassets */,
 				F97B53C41E363D6600EA0055 /* LaunchScreen.storyboard */,
 				F97B53C71E363D6600EA0055 /* Info.plist */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F94804A11EAC8D5900F24CAB /* CountriesTableViewController.swift in Sources */,
 				F97B53BE1E363D6600EA0055 /* DetailViewController.swift in Sources */,
 				F97B53BC1E363D6600EA0055 /* MasterViewController.swift in Sources */,
 				F97B53BA1E363D6600EA0055 /* AppDelegate.swift in Sources */,

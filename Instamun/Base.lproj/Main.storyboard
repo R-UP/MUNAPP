@@ -28,10 +28,10 @@
             </objects>
             <point key="canvasLocation" x="-1081" y="-823"/>
         </scene>
-        <!--Item 1-->
+        <!--Countries list-->
         <scene sceneID="YNU-XQ-lSO">
             <objects>
-                <viewController id="RRG-me-d29" sceneMemberID="viewController">
+                <viewController id="RRG-me-d29" userLabel="Countries list" customClass="TableViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="t2G-Xb-EMi"/>
                         <viewControllerLayoutGuide type="bottom" id="czM-Rk-S2x"/>
@@ -39,7 +39,19 @@
                     <view key="view" contentMode="scaleToFill" id="kFx-2C-BH7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="DcC-w3-Pjj">
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DcC-w3-Pjj" firstAttribute="top" secondItem="t2G-Xb-EMi" secondAttribute="bottom" id="9sT-PV-Euj"/>
+                            <constraint firstItem="DcC-w3-Pjj" firstAttribute="leading" secondItem="kFx-2C-BH7" secondAttribute="leading" id="9zg-wR-AoZ"/>
+                            <constraint firstItem="czM-Rk-S2x" firstAttribute="top" secondItem="DcC-w3-Pjj" secondAttribute="bottom" id="drp-8T-sb8"/>
+                            <constraint firstAttribute="trailing" secondItem="DcC-w3-Pjj" secondAttribute="trailing" id="vU6-9e-24N"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="TPz-O6-8xc"/>
                 </viewController>
