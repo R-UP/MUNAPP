@@ -8,8 +8,10 @@
 
 import UIKit
 
-class CountriesTableViewController: UITableViewController {
+class CountriesTableViewController: UITableViewController, UITableViewDataSource {
 
+    @IBOutlet weak var CountryList: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
