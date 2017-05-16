@@ -17,6 +17,7 @@
 		F97B53D11E363D6600EA0055 /* InstamunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97B53D01E363D6600EA0055 /* InstamunTests.swift */; };
 		F97B53DC1E363D6600EA0055 /* InstamunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97B53DB1E363D6600EA0055 /* InstamunUITests.swift */; };
 		F9DF733F1EC20731008B1BDC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DF733E1EC20731008B1BDC /* TableViewController.swift */; };
+		F9DF73411ECB1D16008B1BDC /* CountryDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DF73401ECB1D16008B1BDC /* CountryDisplayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		F97B53DB1E363D6600EA0055 /* InstamunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstamunUITests.swift; sourceTree = "<group>"; };
 		F97B53DD1E363D6600EA0055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9DF733E1EC20731008B1BDC /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		F9DF73401ECB1D16008B1BDC /* CountryDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryDisplayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				F97B53BB1E363D6600EA0055 /* MasterViewController.swift */,
 				F97B53BD1E363D6600EA0055 /* DetailViewController.swift */,
 				F97B53BF1E363D6600EA0055 /* Main.storyboard */,
+				F9DF73401ECB1D16008B1BDC /* CountryDisplayViewController.swift */,
 				F9DF733E1EC20731008B1BDC /* TableViewController.swift */,
 				F94804A01EAC8D5900F24CAB /* CountriesTableViewController.swift */,
 				F97B53C21E363D6600EA0055 /* Assets.xcassets */,
@@ -270,6 +273,7 @@
 			files = (
 				F94804A11EAC8D5900F24CAB /* CountriesTableViewController.swift in Sources */,
 				F97B53BE1E363D6600EA0055 /* DetailViewController.swift in Sources */,
+				F9DF73411ECB1D16008B1BDC /* CountryDisplayViewController.swift in Sources */,
 				F97B53BC1E363D6600EA0055 /* MasterViewController.swift in Sources */,
 				F9DF733F1EC20731008B1BDC /* TableViewController.swift in Sources */,
 				F97B53BA1E363D6600EA0055 /* AppDelegate.swift in Sources */,
